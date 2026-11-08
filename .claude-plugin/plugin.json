@@ -1,0 +1,21 @@
+{
+  "name": "dari-base",
+  "version": "1.0.0",
+  "description": "Данные Dari Base (РК и интеграции) в Claude Code — только чтение",
+  "author": { "name": "DARI" },
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Ключ Dari Base",
+      "description": "Ключ MCP из Dari Base: Пользователи → Ключи MCP",
+      "sensitive": true,
+      "required": true
+    },
+    "server_url": {
+      "type": "string",
+      "title": "Адрес Dari Base",
+      "description": "Менять не нужно",
+      "default": "https://daricrew.ru"
+    }
+  }
+}

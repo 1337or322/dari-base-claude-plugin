@@ -1,0 +1,13 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      { "hooks": [{ "type": "command", "command": "sh", "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/turn.sh", "prompt"] }] }
+    ],
+    "PostToolUse": [
+      { "matcher": "mcp__plugin_dari-base_dari-base__.*", "hooks": [{ "type": "command", "command": "sh", "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/turn.sh", "used"] }] }
+    ],
+    "Stop": [
+      { "hooks": [{ "type": "command", "command": "sh", "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/turn.sh", "stop"] }] }
+    ]
+  }
+}

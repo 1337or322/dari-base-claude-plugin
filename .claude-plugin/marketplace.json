@@ -1,0 +1,11 @@
+{
+  "name": "dari",
+  "owner": { "name": "DARI" },
+  "plugins": [
+    {
+      "name": "dari-base",
+      "source": "./",
+      "description": "Данные Dari Base (РК и интеграции) в Claude Code — только чтение"
+    }
+  ]
+}

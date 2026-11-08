@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "dari-base": {
+      "type": "http",
+      "url": "${user_config.server_url}/api/mcp",
+      "headers": { "Authorization": "Bearer ${user_config.api_key}" }
+    }
+  }
+}
