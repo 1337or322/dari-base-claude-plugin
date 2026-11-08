@@ -11,7 +11,7 @@
    /plugin install dari-base@dari
    ```
    В Desktop то же самое: «+» у поля ввода → «Add plugins».
-3. **Ключ в плагин.** При установке Claude Code спросит «Ключ Dari Base» — вставить ключ в это поле. **Не вставляйте ключ в чат.**
+3. **Ключ в плагин.** Claude Code спросит «Ключ Dari Base» — вставить ключ в это поле. Если не спросил: `/plugin configure dari-base@dari`. **Не вставляйте ключ в чат.**
 4. **Автообновление** (один раз): `/plugin` → Marketplaces → `dari` → Enable auto-update.
 
 Проверка: спросите «Какие РК сейчас активны в Dari Base?».
