@@ -7,7 +7,7 @@
 1. **Ключ.** В Dari Base: «Пользователи» → иконка «Ключи MCP» у своего пользователя → «Создать ключ» → скопировать. Ключ показывается один раз. Если нет прав админа — попросите ключ у администратора.
 2. **Плагин.** В Claude Code (терминал или Desktop, вкладка Code) выполнить:
    ```
-   /plugin marketplace add <OWNER>/dari-base-claude-plugin
+   /plugin marketplace add 1337or322/dari-base-claude-plugin
    /plugin install dari-base@dari
    ```
    В Desktop то же самое: «+» у поля ввода → «Add plugins».
