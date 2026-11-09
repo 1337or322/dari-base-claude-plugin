@@ -1,13 +1,13 @@
 {
   "name": "dari-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Данные Dari Base (РК и интеграции) в Claude Code — только чтение",
   "author": { "name": "DARI" },
   "userConfig": {
     "api_key": {
       "type": "string",
       "title": "Ключ Dari Base",
-      "description": "Ключ MCP из Dari Base: Пользователи → Ключи MCP",
+      "description": "Ключ выдаёт администратор Dari Base",
       "sensitive": true,
       "required": true
     },

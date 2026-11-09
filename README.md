@@ -4,7 +4,7 @@
 
 ## Установка
 
-1. **Доступ и ключ.** Попросите у администратора Dari Base ключ и доступ к этому репозиторию на GitHub (нужен GitHub-аккаунт и вход в GitHub на компьютере, например `gh auth login`).
+1. **Ключ.** Попросите ключ у администратора Dari Base.
 2. **Плагин.** В Claude Code (терминал или Desktop, вкладка Code) выполнить:
    ```
    /plugin marketplace add 1337or322/dari-base-claude-plugin
